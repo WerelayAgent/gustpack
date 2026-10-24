@@ -9,9 +9,18 @@
 
 ## 📖 Overview
 
-**Gustpack** (`$GPACK`) provides a non-custodial covered-call protocol built natively for Solana. Token holders can monetize their bags by writing covered calls with fully customizable strike prices and expiration dates, receiving instant, upfront SOL premiums.
+- **Brand**: Gustpack
+- **Token Ticker**: `$GPACK`
+- **Network / Ecosystem**: Solana & pump.fun
+- **Contract Address (CA)**: Coming Soon on pump.fun
+- **Official Links**:
+  - Website: [https://gustpack.fun](https://gustpack.fun)
+  - X (Twitter): [https://x.com/gustpack](https://x.com/gustpack)
 
-### Key Highlights
+---
+
+## ⚡ Key Highlights
+
 - **Upfront SOL Yield**: Earn SOL immediately when a buyer fills your option offer.
 - **Automated Settlement**: Physical delivery upon exercise on-chain or collateral reclaim upon expiration.
 - **Revenue Vault**: 30% of all protocol service fees are pooled and distributed time-weighted to staked **$GPACK** holders.
@@ -31,34 +40,8 @@
 | **Dev Buy & Burn Split** | 20% of daily service fees |
 | **Contract Types** | Physical delivery covered calls |
 
----
-
-## 🚀 Running Locally
-
-### Prerequisites
-- Node.js (v18+)
-
-### Getting Started
-```bash
-# Clone the repository
-git clone https://github.com/WerelayAgent/gustpack.git
-cd gustpack
-
-# Start the local server with live API proxy
-npm start
-```
-
-Open [http://localhost:3459](http://localhost:3459) to view the landing page, or [http://localhost:3459/app](http://localhost:3459/app) to explore the options app.
-
----
-
-## 🌐 Deployment
-
-The repository includes a ready-to-deploy `vercel.json` configured with clean URLs and live proxying for Solana chain/market introspection:
-
-```bash
-vercel --prod
-```
+- Pure static client application with interactive options payoff visualizer.
+- Ready for zero-config Vercel deployment with `/api/gust` proxy rewrites (`vercel.json`).
 
 ---
 
