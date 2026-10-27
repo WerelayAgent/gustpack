@@ -12,7 +12,7 @@
 - **Brand**: Gustpack
 - **Token Ticker**: `$GPACK`
 - **Network / Ecosystem**: Solana & pump.fun
-- **Contract Address (CA)**: Coming Soon on pump.fun
+- **Contract Address (CA)**: live now on pump.fun
 - **Official Links**:
   - Website: [https://gustpack.fun](https://gustpack.fun)
   - X (Twitter): [https://x.com/gustpack](https://x.com/gustpack)
